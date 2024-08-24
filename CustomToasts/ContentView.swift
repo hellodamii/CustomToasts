@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  CustomToasts
 //
-//  Created by Busha on 19/08/2024.
+//  Created by Damilare on 19/08/2024.
 //
 
 import SwiftUI
@@ -10,15 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("Present Toast") {
+                Toast.shared.present(
+                    title: "Damilare's Airpods Pro",
+                    desc: "Connected",
+                    symbol: "airpodspro",
+                    isUserInteractionEnabled: true,
+                    timing: .long)
+            }
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    RootView {
+        ContentView()
+    }
 }

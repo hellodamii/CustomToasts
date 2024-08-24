@@ -2,7 +2,7 @@
 //  CustomToastsApp.swift
 //  CustomToasts
 //
-//  Created by Busha on 19/08/2024.
+//  Created by Damilare on 19/08/2024.
 //
 
 import SwiftUI
@@ -11,7 +11,9 @@ import SwiftUI
 struct CustomToastsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView {
+                ContentView()
+            }
         }
     }
 }

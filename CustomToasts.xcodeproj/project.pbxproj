@@ -11,6 +11,7 @@
 		E394BAF22C73EC180020FC55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394BAF12C73EC180020FC55 /* ContentView.swift */; };
 		E394BAF42C73EC1A0020FC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E394BAF32C73EC1A0020FC55 /* Assets.xcassets */; };
 		E394BAF72C73EC1A0020FC55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E394BAF62C73EC1A0020FC55 /* Preview Assets.xcassets */; };
+		E394BAFF2C73EC3F0020FC55 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394BAFE2C73EC3F0020FC55 /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E394BAF12C73EC180020FC55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E394BAF32C73EC1A0020FC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E394BAF62C73EC1A0020FC55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E394BAFE2C73EC3F0020FC55 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E394BAEE2C73EC180020FC55 /* CustomToasts */ = {
 			isa = PBXGroup;
 			children = (
+				E394BAFD2C73EC2A0020FC55 /* Helpers */,
 				E394BAEF2C73EC180020FC55 /* CustomToastsApp.swift */,
 				E394BAF12C73EC180020FC55 /* ContentView.swift */,
 				E394BAF32C73EC1A0020FC55 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				E394BAF62C73EC1A0020FC55 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E394BAFD2C73EC2A0020FC55 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E394BAFE2C73EC3F0020FC55 /* Toast.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				E394BAF22C73EC180020FC55 /* ContentView.swift in Sources */,
 				E394BAF02C73EC180020FC55 /* CustomToastsApp.swift in Sources */,
+				E394BAFF2C73EC3F0020FC55 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
